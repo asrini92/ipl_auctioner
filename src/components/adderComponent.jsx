@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "react-modal";
 import styled from "styled-components";
+import ListComponent from "./listComponent";
 
-const AdderContainer = styled.div`
-  min-width: 150px;
+const AddercustomRadio = styled.div`
+  display: flex;
 `;
 
 const AddIcon = styled.div`
@@ -43,20 +45,43 @@ const AddIcon = styled.div`
 `;
 
 const AdderText = styled.div`
-  width: 130px;
-  position: absolute;
   font-weight: bold;
   text-align: center;
-  top: 0px;
-  left: 10px;
+  margin-top: ${props => (props.margin ? "20px" : "5px")};
 `;
 
+Modal.setAppElement("#root");
+
 export default function Adder(props) {
+  const [modalIsOpen, setModalOpen] = useState(false);
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
+  const ForNewTeam = props.newTeam;
+
+  const handler = value => {
+    console.log(value);
+    closeModal();
+  };
+
   return (
-    <AdderContainer margin={props.newTeam}>
-      <AddIcon margin={props.newTeam}>
-        <AdderText> {props.newTeam ? "Add New Team" : "Add Player"} </AdderText>
-      </AddIcon>
-    </AdderContainer>
+    <AddercustomRadio margin={ForNewTeam}>
+      <AddIcon margin={ForNewTeam} onClick={openModal} />
+      <AdderText margin={ForNewTeam}>
+        {ForNewTeam ? "Add New Team" : "Add Player"}
+      </AdderText>
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        contentLabel="Selection Modal"
+      >
+        <ListComponent ForNewTeam={props.newTeam} getValue={handler} />
+      </Modal>
+    </AddercustomRadio>
   );
 }

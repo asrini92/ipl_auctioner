@@ -17,7 +17,6 @@ const PlayerDetails = styled.h4`
 `;
 
 export default function PlayerDashboard(props) {
-  console.log(props.playerDetails.description);
   return (
     <IndividuaPlayerContainer>
       <PlayerName>{props.playerName}</PlayerName>

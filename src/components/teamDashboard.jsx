@@ -5,9 +5,7 @@ import PlayerDashboard from "./playerCard";
 
 const IndividualTeamContainer = styled.div`
   max-height: 600px;
-  padding: 20px;
-  padding-top: 0px;
-  min-width: 200px;
+  padding: 0 10px 20px 20px;
   background-color: #fff;
   margin-right: 20px;
 `;

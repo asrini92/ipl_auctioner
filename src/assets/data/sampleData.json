@@ -24,5 +24,44 @@
         }
       }
     }
-  }
+  },
+  "teamList": ["CSK", "MI", "RCB", "KKR"],
+  "playerList": [
+    {
+      "M S Dhoni": "Top Class Wicket Keeper, Batsmen , Captain."
+    },
+    {
+      "Raina": "Top Class Fielder, Batsmen , Vice Captain."
+    },
+    {
+      "Rohit": "Top Class Batsmen , Captain and Hitman."
+    },
+    {
+      "Virat": "World Class Batsmen and aggressive Captain."
+    },
+    {
+      "ABD": "World Class Batsmen and MR. 360 degrees."
+    },
+    {
+      "DK": "Calm Captain, good Wicket Keeper and Handy batsman."
+    },
+    {
+      "Bumrah": "World Class Bowler and King of yorkers."
+    },
+    {
+      "Narain": "Sudden opening batsmen good all rounder."
+    },
+    {
+      "JADDU": "Best all rounder, lefty and next Jonty."
+    },
+    {
+      "Pollard": "Beast at his best and handy tall all rounder"
+    },
+    {
+      "Parthiv": "Good and Handy wicket keeping batsman."
+    },
+    {
+      "Subham Gill": "Good opening batsmen, Young and Talneted."
+    }
+  ]
 }
