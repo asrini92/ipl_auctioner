@@ -1,0 +1,44 @@
+{
+  "001": {
+    "category": "Income",
+    "subCategory": "Income",
+    "name": "April Month Salary",
+    "date": "",
+    "amount": 75000
+  },
+  "002": {
+    "category": "Expense",
+    "subCategory": "Food",
+    "name": "April Month Salary",
+    "date": "",
+    "amount": 1500
+  },
+  "003": {
+    "category": "Expense",
+    "subCategory": "Entertainment",
+    "name": "April Month Salary",
+    "date": "",
+    "amount": 2000
+  },
+  "004": {
+    "category": "Income",
+    "subCategory": "Lottery",
+    "name": "April Month Salary",
+    "date": "",
+    "amount": 5000
+  },
+  "005": {
+    "category": "Expense",
+    "subCategory": "Bills",
+    "name": "April Month Salary",
+    "date": "",
+    "amount": 3000
+  },
+  "006": {
+    "category": "Expense",
+    "subCategory": "Food",
+    "name": "April Month Salary",
+    "date": "",
+    "amount": 500
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "teams": {
+    "CSK": {
+      "players": {
+        "M S Dhoni": {
+          "description": "Top Class Wicket Keeper, Batsmen , Captain."
+        },
+        "Raina": {
+          "description": "Top Class Fielder, Batsmen , Vice Captain."
+        }
+      }
+    },
+    "MI": {
+      "players": {
+        "Rohit": {
+          "description": "Top Class Batsmen , Hitman."
+        }
+      }
+    },
+    "RCB": {
+      "players": {
+        "Virat": {
+          "description": "World Class Batsmen and aggressive Captain."
+        }
+      }
+    }
+  }
+}
